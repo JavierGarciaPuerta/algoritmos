@@ -1,7 +1,11 @@
 package com.example.algoritmos.service;
 
+import com.example.algoritmos.bean.InputBean;
+
 public interface CalculadoraService {
 	
-	Integer resta(Integer a, Integer b);
+	Integer resta(InputBean inputBean);
+	
+	Integer suma(Integer a, Integer b);
 	
 }
